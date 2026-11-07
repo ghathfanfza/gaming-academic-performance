@@ -42,9 +42,10 @@ Parameter terbaik Random Forest: `n_estimators=200`, `max_depth=None`, `min_samp
 
 > Model ini memprediksi, bukan membuktikan sebab-akibat. Hubungan antara gaming dan nilai pada data ini tidak otomatis berlaku untuk kasus lain.
 
-![Analisis bias dan variance](images/grafik1.png)
-![Perbandingan arsitektur ensemble](images/grafik2.png)
-![Interpretasi SHAP](images/grafik4.png)
+![Analisis bias dan variance](image/grafik1.png)
+![Perbandingan arsitektur ensemble](image/grafik2.png)
+![Validasi K-Fold](image/grafik3.png)
+![Interpretasi SHAP](image/grafik4.png)
 
 ## Menjalankan
 
