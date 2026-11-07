@@ -42,7 +42,9 @@ Parameter terbaik Random Forest: `n_estimators=200`, `max_depth=None`, `min_samp
 
 > Model ini memprediksi, bukan membuktikan sebab-akibat. Hubungan antara gaming dan nilai pada data ini tidak otomatis berlaku untuk kasus lain.
 
-[Tambahkan grafik hasil (`langkah1_analisis.png`, `langkah2_arsitektur.png`, `langkah5_interpretasi_xai.png`) ke folder `images/`.]
+![Analisis bias dan variance](images/grafik1.png)
+![Perbandingan arsitektur ensemble](images/grafik2.png)
+![Interpretasi SHAP](images/grafik4.png)
 
 ## Menjalankan
 
@@ -52,8 +54,7 @@ Secara lokal:
 pip install -r requirements.txt
 jupyter notebook notebooks/gaming_vs_academic.ipynb
 ```
-Dataset diunduh otomatis lewat `kagglehub` dan dapat meminta login Kaggle.
-
+Dataset diunduh otomatis lewat `kagglehub`
 ## Struktur
 
 ```
@@ -65,10 +66,3 @@ requirements.txt
 
 Python, pandas, scikit-learn, XGBoost, SHAP, matplotlib.
 
-## Peran
-
-Peran saya: **Programmer dan Project Manager**. [Tambahkan anggota tim jika ada, setelah mendapat izin.]
-
-## Lisensi
-
-[Pilih lisensi, mis. MIT, lalu tambahkan file LICENSE]
